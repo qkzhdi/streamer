@@ -82,7 +82,7 @@ func (p Process) Spawn(path, URI string) *exec.Cmd {
 		"-hls_time",
 		"1",
 		"-hls_list_size",
-		"2",
+		"6",
 		"-hls_segment_filename",
 		fmt.Sprintf("%s/%%d.ts", path),
 		fmt.Sprintf("%s/index.m3u8", path),
